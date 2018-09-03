@@ -18,7 +18,7 @@
 				<div class="col-lg-12">
 
 
-					<C:if test="${userClickAllProducts==true}">
+					<C:if test="${userClickCategoryProducts==true}">
 						<ol class="breadcrumb">
 
 							<li><a href="${contextRoot}/home">Home</a></li>
@@ -29,7 +29,7 @@
 					</C:if>
 
 
-					<C:if test="${userClickCategoryProducts==true}">
+					<C:if test="${userClickAllProducts==true}">
 						<ol class="breadcrumb">
 
 							<li><a href="${contextRoot}/home">Home</a></li>

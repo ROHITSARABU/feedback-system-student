@@ -74,6 +74,12 @@
 				<%@include file="about.jsp"%>
 			</c:if>
 
+
+			<!-- load only when user click about -->
+			<c:if
+				test="${userClickAllProducts == true or userClickCategoryProducts == true}">
+				<%@include file="adminarea.jsp"%>
+			</c:if>
 		</div>
 
 		<!-- footer -->

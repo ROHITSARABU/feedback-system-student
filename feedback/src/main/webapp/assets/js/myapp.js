@@ -1,12 +1,11 @@
 $(function() {
 	// solving the active menu problem
 	switch (menu) {
-	
+
 	case 'Login':
 		$('#admin').addClass('active');
 		break;
 
-	
 	case 'Admin':
 		$('#admin').addClass('active');
 		break;
@@ -27,8 +26,13 @@ $(function() {
 		$('#about').addClass('active');
 		break;
 
+	case 'All Products':
+		$('#adminarea').addClass('active');
+		break;
+
 	default:
-		$('#home').addClass('active');
+		$('#adminarea').addClass('active');
+		$('#a_' + menu).addClass('active');
 		break;
 	}
 

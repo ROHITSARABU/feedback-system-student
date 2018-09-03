@@ -16,6 +16,8 @@
         </ul>
       </li>
       
+       <li id="adminarea"><a href="${contextRoot}/show/all/products">All Products</a></li>
+      
       <li id="contact"><a href="${contextRoot}/contact">Contact Us</a></li>
       
       <li id="about"><a href="${contextRoot}/about">About Us</a></li>
